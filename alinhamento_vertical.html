@@ -7,6 +7,11 @@
   <title>Document</title>
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/estilo.css">
+  <style type="text/css">
+    .row {
+      margin-bottom: 20px;
+    }
+  </style>
 </head>
 
 <body>
@@ -16,21 +21,107 @@
       <div class="col">
         <div class="container">
           <div class="row ">
-              <div class="col-md-4" style="background-color: red">
-                some content
-              </div>
-              <div class="col-md-4" style="background-color: yellow">
-                catz
-                <img width="100" height="100" src="https://placekitten.com/100/100/">
-              </div>
-              <div class="col-md-4" style="background-color: green">
-                some more content
-              </div>
+            <div class="col-md-4" style="background-color: red">
+              normal
+            </div>
+            <div class="col-md-4" style="background-color: yellow">
+              catz
+              <img width="100" height="100" src="https://placekitten.com/100/100/">
+            </div>
+            <div class="col-md-4" style="background-color: green">
+              normal
+            </div>
           </div>
+        </div>
       </div>
+    </div>
+
+    <div class="row">
+      <div class="col-4">
+        <span class="align-baseline">baseline</span>
+        <span class="align-top">top</span>
+        <span class="align-middle">middle</span>
+        <span class="align-bottom">bottom</span>
+        <span class="align-text-top">text-top</span>
+        <span class="align-text-bottom">text-bottom</span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <div class="d-flex flex-column bd-highlight mb-3">
+          <div class="p-2 bd-highlight">Flex item 1</div>
+          <div class="p-2 bd-highlight">Flex item 2</div>
+          <div class="p-2 bd-highlight">Flex item 3</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <div class="d-flex justify-content-start">
+          <div class="p-2 bd-highlight">Flex item 1</div>
+          <div class="p-2 bd-highlight">Flex item 2</div>
+          <div class="p-2 bd-highlight">Flex item 3</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <div class="d-flex justify-content-between">
+          <div class="p-2 bd-highlight">Flex item 1</div>
+          <div class="p-2 bd-highlight">Flex item 2</div>
+          <div class="p-2 bd-highlight">Flex item 3</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <div class="d-flex align-items-top">
+          <div class="p-2 bd-highlight">Flex item 1</div>
+          <div class="p-2 bd-highlight">
+            Flex item 2<br>
+            fafdsafdsa<br>
+            ffdsa fdsa fdsa 
+          </div>
+          <div class="p-2 bd-highlight">Flex item 3</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <div class="d-flex align-items-center">
+          <div class="align-self-center bd-highlight">Flex item 1</div>
+          <div class="p-2 bd-highlight" >
+            Flex item 2<br>
+            fdasfdsa fdsa fdsa fdsa<br>
+            fdsfdsfds
+          </div>
+          <div class="align-self-end bd-highlight">Flex item 3</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+        <img src="https://placekitten.com/300/300/" width="100%" height="300px" />
+      </div>
+      <div
+        class="col-sm-12 col-md-8 col-lg-8 col-xl-8 schools-text d-flex flex-column justify-content-center align-items-center">
+        <h3>Portugal</h3>
+        <p>Portugal is represented by OFICINA - Escola Profissional do INA, a school located in the north
+          of the country, in the city of Santo Tirso, district of Porto.</p>
       </div>
     </div>
   </div>
+
+  <br><br>
 
   <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="js/popper.min.js"></script>

@@ -8,3 +8,7 @@ div.bg1{
 	height: 50px;
 	border: 1px solid #fff;
 }
+
+div.bd-highlight{
+	border: 1px solid #563d7c;
+}
