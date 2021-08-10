@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shirink-to-fit=no">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <style type="text/css">
+        .row {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <button type="button" class="btn btn-lg btn-danger" data-toggle="popover" title="Título do Popover" data-content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae temporibus eos perspiciatis omnis, ut in quaerat soluta hic possimus nihil, aut odio voluptatum quidem, excepturi aliquid natus aspernatur iusto quisquam.">
+                    Clique para abrir o popover
+                </button>
+            </div>
+        </div>
+
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est officiis, consectetur similique quidem quae alias fugiat voluptate blanditiis facilis, debitis tempora perspiciatis ipsum veritatis voluptatum sapiente ratione omnis autem recusandae?</p>
+
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est officiis, consectetur similique quidem quae alias fugiat voluptate blanditiis facilis, debitis tempora perspiciatis ipsum veritatis voluptatum sapiente ratione omnis autem recusandae?</p>
+
+        <div class="row">
+            <div class="col">
+                <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="top" data-content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae temporibus eos perspiciatis omnis, ut in quaerat soluta hic possimus nihil, aut odio voluptatum quidem, excepturi aliquid natus aspernatur iusto quisquam.">
+                    Popover - Top
+                </button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="right" data-content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae temporibus eos perspiciatis omnis, ut in quaerat soluta hic possimus nihil, aut odio voluptatum quidem, excepturi aliquid natus aspernatur iusto quisquam.">
+                    Popover - Right
+                </button>
+            </div>
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script>
+        $(function() {
+            $('[data-toggle="popover"]').popover();
+        });
+    </script>
+</body>
+
+</html>
