@@ -16,6 +16,7 @@
 
 <body>
 
+
   <div class="container-fluid">
     <div class="row">
       <div class="col">
@@ -29,6 +30,7 @@
       </div>
     </div>
 
+
     <div class="row">
       <div class="col">
         <div class="list-group">
@@ -40,6 +42,7 @@
         </div>
       </div>
     </div>
+
 
     <div class="row">
       <div class="col">
@@ -57,7 +60,71 @@
     <div class="row">
       <div class="col">
         <div class="list-group">
+          <a href="#" class="list-group-item list-group-item-action active">
+            <div class="d-flex w-100 justify-content-between">
+              <h5>Titulo da minha lista</h5>
+              <small>3 dias atras</small>
+            </div>
+            <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat unde sed ad iure cumque sint, libero architecto at tempore porro fugit suscipit, ab doloribus nesciunt voluptates officiis et beatae est?</p>
+          </a>
+          <a href="#" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+              <h5>Titulo da minha lista</h5>
+              <small>3 dias atras</small>
+            </div>
+            <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat unde sed ad iure cumque sint, libero architecto at tempore porro fugit suscipit, ab doloribus nesciunt voluptates officiis et beatae est?</p>
+          </a>
+          <a href="#" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+              <h5>Titulo da minha lista</h5>
+              <small>3 dias atras</small>
+            </div>
+            <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat unde sed ad iure cumque sint, libero architecto at tempore porro fugit suscipit, ab doloribus nesciunt voluptates officiis et beatae est?</p>
+          </a>
+        </div>
+      </div>
+    </div>
 
+
+    <div class="row">
+      <div class="col-3">
+        <div id="list-tab" class="list-group" role="tablist">
+          <a id="list-home-list" href="#list-home" class="list-group-item list-group-item-action active" data-toggle="list" role="tab" aria-control="home">Home</a>
+          <a id="list-perfil-list" href="#list-perfil" class="list-group-item list-group-item-action" data-toggle="list" role="tab" aria-control="perfil">Perfil</a>
+          <a id="list-contato-list" href="#list-contato" class="list-group-item list-group-item-action" data-toggle="list" role="tab" aria-control="contato">Contato</a>
+        </div>
+      </div>
+      <div class="col-9">
+        <div id="nav-tab-content" class="tab-content">
+
+          <div id="list-home" class="tab-pane fade show active" role="tabpanel" aria-labelledby="list-home-list">
+            <h3>Home</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum perferendis maiores nisi, unde nemo aspernatur dolorem, repellat, neque magnam ipsa consequuntur cupiditate? Eveniet, ipsa facilis. Illo soluta placeat dolores dolor.</p>
+          </div>
+
+          <div id="list-perfil" class="tab-pane fade" role="tabpanel" aria-labelledby="list-perfil-list">
+            <h3>Perfil</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum perferendis maiores nisi, unde nemo aspernatur dolorem, repellat, neque magnam ipsa consequuntur cupiditate? Eveniet, ipsa facilis. Illo soluta placeat dolores dolor.</p>
+          </div>
+
+          <div id="list-contato" class="tab-pane fade" role="tabpanel" aria-labelledby="list-perfil-list">
+            <h3>Contato</h3>
+            <form>
+              <div class="form-group">
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome" class="form-control" placeholder="Nome">
+              </div>
+              <div class="form-group">
+                <label for="assunto">Assunto</label>
+                <input type="text" name="assunto" id="assunto" class="form-control" placeholder="Assunto">
+              </div>
+              <div class="form-group">
+                <label for="observacoes">Observações</label>
+                <textarea name="observacoes" id="observacoes" class="form-control"></textarea>
+              </div>
+              <button class="btn btn-primary">Enviar</button>
+            </form>
+          </div>
         </div>
       </div>
     </div>
