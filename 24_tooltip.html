@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shirink-to-fit=no">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/estilo.css">
+  <style type="text/css">
+    .row {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio sapiente rem nobis cum facilis nesciunt placeat natus doloremque exercitationem, quod tempora nostrum magnam nisi. Vel minus suscipit reiciendis nostrum accusamus?</p>
+        <button type="button" class="btn btn-secundary " data-toggle="tooltip" data-placement="top" title="Tooltip Top">Tooltip Top</button>
+        <button type="button" class="btn btn-secundary " data-toggle="tooltip" data-placement="right" title="Tooltip Right">Tooltip Right</button>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script>
+    $(function() {
+      $('[data-toggle="tooltip"]').tooltip();
+    });
+  </script>
+</body>
+
+</html>
